@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +22,24 @@ function App() {
   );
 }
 
+export default App;*/
+// src/App.js
+// src/App.js
+// src/App.js
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Hero />
+      {/* Additional content */}
+    </div>
+  );
+}
+
 export default App;
+
